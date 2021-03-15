@@ -17,7 +17,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Hello I'm", "FRONT-END WEB DEVELOPER", "From Bangalore."],
+		strings: ["Santosh Patil", "Software Engineer", "From Bangalore."],
 		typeSpeed: 60,
 		loop: true,
 		startDelay: 0,

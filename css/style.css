@@ -15,7 +15,7 @@ a {
 }
 h4 {
 	padding: 5px;
-	}
+}
 .user-box{
 	display: flex;
 	align-items: center;
@@ -49,7 +49,7 @@ h4 {
 .titleMessage {
 	position: absolute;
 	width: 100%;
-	height: 250px;
+	height: 260px;
 	top: 60%;
 	z-index: 5;
 	text-align: center;
@@ -75,11 +75,12 @@ h4 {
 
 #navigation {
 	background-image: linear-gradient(to right, #1b57c7, #1346a5);
-	padding: 20px 10px;
+	padding: 10px 10px;
 	z-index: 100;
 	width: 100%;
 	margin: auto;
 	box-shadow: soild 2px #bdc3c7;
+	padding-top: 10px;
 }
 
 #navigation li {
@@ -330,12 +331,6 @@ h3 .chart_title{
 	
 }
 
-
-
-
-
-
-
 .line::before{ content: ''; background: #7b1798; height: 5px; width: 300px; margin-left: auto; margin-right: auto; display: block; transform: translateY(63px); -webkit-transform: translateY(63px); -moz-transform: translateY(63px); -ms-transform: translateY(63px); -o-transform: translateY(63px);
 }
 
@@ -374,29 +369,30 @@ h3 .chart_title{
 
 
 .btn-primary{
-box-shadow: none;
-padding: 10px 25px;
-border: none;
-font-size: 18px;
-border-radius: 20px;
-background-image: linear-gradient(to right, #7ed56f, #55c57a);
+	box-shadow: none;
+	padding: 10px 25px;
+	border: none;
+	font-size: 18px;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #7ed56f, #55c57a);
 }
 
 
 .contact-section{
-display: block;
-background-size: 100%;
-border-radius: 2px;
-height: 100%;
-padding: 25px 10px;
-margin-top: 25px;
-margin-bottom: 20px;
-	
+	display: block;
+	background-size: 100%;
+	border-radius: 2px;
+	height: 100%;
+	padding: 45px 10px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+		
 }
 
 .statsSection{
 	padding: 45px 20px;
 	margin-bottom: 20px;
+	margin-top: 25px;
 }
 
 .squareIcon{
@@ -458,7 +454,7 @@ margin-bottom: 20px;
 .copyrightSection {
 	background-image: linear-gradient(to right, #1b57c7, #1346a5);
 	color: #fff;
-	padding: 30px 5px;
+	padding: 10px 5px;
 }
 
 .copyrightSection p {
